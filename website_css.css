@@ -1,0 +1,19 @@
+body {
+    max-width: 40em;
+    margin: 2em auto 2em auto;
+}
+
+h1 {
+
+h1, h2 {
+    border-top: solid black .05em;
+}
+
+th, td {
+    vertical-align: top;
+}
+
+td.time {
+    text-align: right;
+    padding-right: .5em;
+}
