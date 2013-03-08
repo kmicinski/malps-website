@@ -1,0 +1,92 @@
+body {
+    max-width: 40em;
+    margin: 2em auto 2em auto;
+    background: #FEFEFA;
+}
+
+h1 {
+    border-top: solid black 2px;
+}
+
+h2 {
+    color: #990000;
+}
+
+h3 {
+    color: #B80000;
+}
+
+table {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    border-collapse:collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    border-bottom: solid black 2px;
+}
+
+tr.p.talk { 
+    
+}
+
+tr.p.speaker { 
+
+}
+
+tr.odd { 
+    background: FFE6E6; 
+}
+
+th, td {
+    vertical-align: top;
+}
+
+td {
+    border-bottom: dashed black 1px;
+}
+
+p.talk { 
+    border-top: solid black 1px;
+    font-weight: bold;
+    
+    text-indent: 20px;
+    margin: 0px;
+    padding-top: .5em;
+}
+
+p.speaker {
+    font-style:italic;
+
+    text-indent: 20px;
+    margin: 0px;
+}
+
+p.abstract {
+    margin-top: 10px;
+}
+
+td.time {
+    text-align: center;
+}
+
+th.time, td.time {
+    width: 20%;
+}
+
+p.time {
+    font-style:italic;
+    text-indent: 20px;
+    margin: 0pt;
+}
+
+th.item, td.item { 
+    width: 80%;
+}
+
+td.time {
+    text-align: right;
+    padding-right: .5em;
+}
